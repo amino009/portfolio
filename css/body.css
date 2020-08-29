@@ -41,9 +41,13 @@
 }
 
 /* プロフィール写真 */
-div.img-hidden {
+div.profile-img {
     height: 300px;
     overflow: hidden;
+}
+div.profile-img img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* セクション */
