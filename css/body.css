@@ -119,12 +119,17 @@ div.profile-img img {
     font-style: italic;
 }
 .work-modal .modal-dialog {
-    max-width: 60vw;
+    margin: 1rem;
+    max-width: 100vw;
 }
 .work-modal .modal-content {
-    padding-top: 0rem;
-    padding-bottom: 0rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
+.work-modal .modal-content .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+  }
 .work-modal .modal-content h2 {
     font-size: 3rem;
     line-height: 3rem;
@@ -155,4 +160,42 @@ div.profile-img img {
 }
 .work-modal .close-modal:hover {
     opacity: 0.3;
+}
+
+/* Skills */
+#skill .skill-item {
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#skill .skill-item .skill-caption {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+#skill .skill-item.skill-caption-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+}
+#skill .skill-item .skill-caption .skill-caption-subheading {
+    font-style: italic;
+}
+
+/* 評価星 */
+.star-rating {
+    position: relative;
+    width: 5em;
+    height: 1em;
+    font-size: 2rem;
+}
+.star-rating-front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    color: #ffcc33;
+}
+.star-rating-back {
+    color: #ccc;
 }
