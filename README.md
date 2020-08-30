@@ -1,3 +1,3 @@
 # portfolio
 my portfolio
-- https://amino009.github.io/portfolio/.
+- https://amino009.github.io/portfolio/

@@ -172,11 +172,13 @@ div.profile-img img {
     padding: 1.5rem;
     font-size: 1.5rem;
 }
-#skill .skill-item.skill-caption-heading {
-    font-size: 1.5rem;
-    font-weight: 700;
+#skill .skill-item .usage-caption-heading {
+    font-size: 1.0rem;
     margin-bottom: 0;
-    text-align: center;
+}
+#skill .skill-item .skill-caption-heading {
+    font-size: 1.5rem;
+    margin-bottom: 0;
 }
 #skill .skill-item .skill-caption .skill-caption-subheading {
     font-style: italic;
@@ -185,7 +187,7 @@ div.profile-img img {
 /* 評価星 */
 .star-rating {
     position: relative;
-    width: 5em;
+    width: 4em;
     height: 1em;
     font-size: 2rem;
 }
