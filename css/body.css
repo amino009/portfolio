@@ -76,3 +76,83 @@ div.profile-img img {
     height: 5px; /* 縦幅 */
     width: 200px; /* 横幅 */
 }
+
+/* Workデザイン */
+#work .work-item {
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#work .work-item .work-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+#work .work-item .work-link .work-hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 62, 80, 0.5);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+}
+#work .work-item .work-link .work-hover .work-hover-content {
+    font-size: 1.25rem;
+    color: white;
+}
+#work .work-item .work-link:hover .work-hover {
+    opacity: 1;
+}
+#work .work-item .work-caption {
+    padding: 1.5rem;
+    text-align: center;
+}
+#work .work-item .work-caption .work-caption-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+#work .work-item .work-caption .work-caption-subheading {
+    font-style: italic;
+}
+.work-modal .modal-dialog {
+    max-width: 60vw;
+}
+.work-modal .modal-content {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+.work-modal .modal-content h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.work-modal .modal-content p.item-intro {
+    font-style: italic;
+    margin-bottom: 2rem;
+    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.work-modal .modal-content p {
+    margin-bottom: 2rem;
+}
+.work-modal .modal-content ul.list-inline {
+    margin-bottom: 2rem;
+    align-items: flex-start;
+}
+.work-modal .modal-content img {
+    margin-bottom: 2rem;
+}
+.work-modal .close-modal {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+.work-modal .close-modal:hover {
+    opacity: 0.3;
+}

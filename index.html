@@ -1,138 +1,472 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>MyPortfolio</title>
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet">
-        <!-- Fonts CSS-->
-        <link rel="stylesheet" href="css/heading.css">
-        <link rel="stylesheet" href="css/body.css">
-    </head>
-    <body id="page-top">
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Portfolio</a>
-                <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded"
-                type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-                        </li>
-                        <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#works">Works</a>
-                        </li>
-                        <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
-                        </li>
-                    </ul>
-                </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>MyPortfolio</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+        crossorigin="anonymous"></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Fonts CSS-->
+    <link rel="stylesheet" href="css/heading.css">
+    <link rel="stylesheet" href="css/body.css">
+</head>
+
+<body id="page-top">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Portfolio</a>
+            <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#works">Works</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <!-- header -->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading mb-0">RU's Portfolio</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-                <p class="pre-wrap masthead-subheading font-weight-light mb-0">IT Engineer</p>
+        </div>
+    </nav>
+    <!-- header -->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading mb-0">Portfolio</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
             </div>
-        </header>
-        <!-- About -->
-        <section class="page-section portfolio" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <div class="text-center section">
-                    <h2 class="page-section-heading text-secondary
+            <!-- Masthead Subheading-->
+            <p class="pre-wrap masthead-subheading font-weight-light mb-0">IT Engineer</p>
+        </div>
+    </header>
+    <!-- About -->
+    <section class="page-section portfolio" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <div class="text-center section">
+                <h2 class="page-section-heading text-secondary
                     mb-0 d-inline-block round-cap-bottom-gr">About</h2>
-                </div>
-                <!-- About Section Content -->
-                <div class="row justify-content-center">
-                    <div class="row">
-                        <div class="col-md-4 align-self-center profile-img">
-                            <img src="./assets/img/portfolio/profile.jpg" alt="img" class="img-fulied">
-                        </div>
-                        <div class="col-md-8 text-secondary">
-                            <ul class="lead text-left mt-3 text-spacing">
-                                <li>名前：R U</li>
-                                <li>現住所：埼玉県</li>
-                                <li>学歴：群馬大学大学院 情報工学科（2011年　卒業）</li>
-                                <li>生年月日：1986/10/06</li>
-                                <li>
-                                  経歴：大学院卒業後、某ソフトウェア開発企業に就職。<br>
-                                  組込み系、GUIアプリ、Webアプリの開発を経験。<br>
-                                  要件定義、設計、開発、テスト、運用まで、一通りの作業を経験。<br>
-                                  7年目からプロジェクトリーダーとしてマネジメント業務に従事。<br>
-                                  進捗管理、課題管理、品質分析、他部門、他社との折衝を経験。<br>
-                                </li>
-                            </ul>
-                        </div>
+            </div>
+            <!-- About Section Content -->
+            <div class="row justify-content-center">
+                <div class="row">
+                    <div class="col-md-4 align-self-center profile-img">
+                        <img src="./assets/img/portfolio/profile.jpg" alt="img" class="img-fulied">
+                    </div>
+                    <div class="col-md-8 text-secondary">
+                        <ul class="lead text-left mt-3 text-spacing">
+                            <li>名前：非公開</li>
+                            <li>現住所：埼玉県</li>
+                            <li>学歴：群馬大学大学院 情報工学科（2011年　卒業）</li>
+                            <li>生年月日：1986/10/06</li>
+                            <li>
+                                経歴：大学院卒業後、某ソフトウェア開発企業に就職。<br>
+                                組込み系、GUIアプリ、Webアプリの開発を経験。<br>
+                                要件定義、設計、開発、テスト、運用まで、一通りの作業を経験。<br>
+                                7年目からプロジェクトリーダーとしてマネジメント業務に従事。<br>
+                                進捗管理、課題管理、品質分析、他部門、他社との折衝を経験。<br>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Works -->
-        <section class="page-section bg-secondary text-white mb-0" id="works">
-            <div class="container">
-                <!-- Works Section Heading-->
-                <div class="text-center section">
-                    <h2 class="page-section-heading d-inline-block
+        </div>
+    </section>
+    <!-- Works -->
+    <section class="page-section bg-secondary text-white mb-0" id="work">
+        <div class="container">
+            <!-- Works Section Heading-->
+            <div class="text-center section">
+                <h2 class="page-section-heading d-inline-block
                     round-cap-bottom-wh text-white">Works</h2>
-                </div>
-                <!-- Works Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto">
-                        <p class="pre-wrap lead">content1</p>
+            </div>
+            <!-- Works Section Content-->
+            <div class="row">
+                <!-- work1 -->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="work-item">
+                        <a class="work-link" data-toggle="modal" href="#workModal1">
+                            <div class="work-hover">
+                                <div class="work-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/work1.png" alt="img" />
+                        </a>
+                        <div class="work-caption">
+                            <div class="work-caption-heading">920MHz無線機<br>システム開発</div>
+                            <div class="work-caption-subheading text-muted">組込み系アプリケーション</div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 mr-auto">
-                        <p class="pre-wrap lead">content2</p>
+                </div>
+                <!-- work2 -->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="work-item">
+                        <a class="work-link" data-toggle="modal" href="#workModal2">
+                            <div class="work-hover">
+                                <div class="work-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/work2.png" alt="img" />
+                        </a>
+                        <div class="work-caption">
+                            <div class="work-caption-heading">映像クラウド<br>システム開発</div>
+                            <div class="work-caption-subheading text-muted">Webアプリケーション</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- work3 -->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="work-item">
+                        <a class="work-link" data-toggle="modal" href="#workModal3">
+                            <div class="work-hover">
+                                <div class="work-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/work3.png" alt="img" />
+                        </a>
+                        <div class="work-caption">
+                            <div class="work-caption-heading">緊急通報配信<br>システム開発</div>
+                            <div class="work-caption-subheading text-muted">Windowsアプリケーション</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- work4 -->
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="work-item">
+                        <a class="work-link" data-toggle="modal" href="#workModal4">
+                            <div class="work-hover">
+                                <div class="work-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/work4.png" alt="img" />
+                        </a>
+                        <div class="work-caption">
+                            <div class="work-caption-heading">官公庁向け<br>情報システム基盤設計</div>
+                            <div class="work-caption-subheading text-muted">サーバ構築、Webアプリケーション</div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Skills -->
-        <section class="page-section" id="skills">
-            <div class="container">
-                <!-- Skills Section Heading-->
-                <div class="text-center section">
-                    <h2 class="page-section-heading text-secondary
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="page-section" id="skill">
+        <div class="container">
+            <!-- Skills Section Heading-->
+            <div class="text-center section">
+                <h2 class="page-section-heading text-secondary
                     d-inline-block mb-0 round-cap-bottom-gr">Skills</h2>
+            </div>
+            <!-- Skills Section Content-->
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <p class="pre-wrap lead">skill1</p>
                 </div>
-                <!-- Skills Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto">
-                        <p class="pre-wrap lead">skill1</p>
-                    </div>
-                    <div class="col-lg-4 mr-auto">
-                        <p class="pre-wrap lead">skill2</p>
+                <div class="col-lg-4 mr-auto">
+                    <p class="pre-wrap lead">skill2</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal1 -->
+    <div class="work-modal modal fade" id="workModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2>920MHz無線機<br>システム開発</h2><br />
+                                <div>
+                                    <dl class="row">
+                                        <dt class="col-sm-3">概要</dt>
+                                        <dd class="col-sm-9">
+                                            920MHz帯の無線機に搭載する上位アプリケーションの開発。
+                                            シリアル接続された各種センサーからデータを受け取り、親機へと送信する。
+                                        </dd>
+                                        <dt class="col-sm-3">チーム体制</dt>
+                                        <dd class="col-sm-9">
+                                            マネージャ：1名 <br />
+                                            リーダー：1名 <br />
+                                            サブリーダー：3名<br />
+                                            開発者：7名<br />
+                                        </dd>
+                                        <dt class="col-sm-3">担当業務</dt>
+                                        <dd class="col-sm-9">
+                                            以下の業務に開発者として参画。 <br />
+                                            　●基本設計、詳細設計 <br />
+                                            　●コーディング <br />
+                                            　●単体テスト<br />
+                                            　●結合テスト<br />
+                                            　●総合テスト<br />
+                                            主にシリアル通信機能部を開発しましたが、テストでは無線部も担当。
+                                            Wireshark、シリアルアナライザーを利用して、データフローの分析も実施。
+                                        </dd>
+                                        <br />
+                                        <dt class="col-sm-3">期間</dt>
+                                        <dd class="col-sm-9">2012年4月 〜 2016年12月</dd>
+                                    </dl>
+                                    <hr>
+                                    <h4>環境・使用言語</h4>
+                                    <dl class="row">
+                                        <dt class="col-sm-3">言語・FW</dt>
+                                        <dd class="col-sm-9">C</dd>
+                                        <dt class="col-sm-3">DB</dt>
+                                        <dd class="col-sm-9">なし（フラッシュメモリを使用）</dd>
+                                        <dt class="col-sm-3">サーバOS</dt>
+                                        <dd class="col-sm-9">RTOS</dd>
+                                        <dt class="col-sm-3">ツール</dt>
+                                        <dd class="col-sm-9">
+                                            AR Embedded Workbench、
+                                            Subversion、Wireshark、シリアルアナライザー</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
-        <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-        <script src="assets/mail/contact_me.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </div>
+    <!-- Modal2 -->
+    <div class="work-modal modal fade" id="workModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2>映像クラウド<br>システム開発</h2><br />
+                                <div>
+                                    <dl class="row">
+                                        <dt class="col-sm-3">概要</dt>
+                                        <dd class="col-sm-9">
+                                            IPカメラの映像をクラウド上に蓄積するシステム。
+                                            クラウド上のデータは特殊な圧縮技術により圧縮される。
+                                            そのため、少ない容量で大量の映像データを蓄積できる。
+                                            蓄積された映像データはWebブラウザで閲覧可能。
+                                        </dd>
+                                        <dt class="col-sm-3">チーム体制</dt>
+                                        <dd class="col-sm-9">
+                                            マネージャ：1名 <br />
+                                            リーダー：1名 <br />
+                                            サブリーダー：2名<br />
+                                            開発者：2名<br />
+                                        </dd>
+                                        <dt class="col-sm-3">担当業務</dt>
+                                        <dd class="col-sm-9">
+                                            以下の業務にサブリーダーとして参画。 <br />
+                                            　●顧客打ち合わせ <br />
+                                            　●基本設計、詳細設計 <br />
+                                            　●コーディング <br />
+                                            　●単体テスト<br />
+                                            　●結合テスト<br />
+                                            　●総合テスト<br />
+                                            主にバックエンド側を開発。
+                                            サーバの監視アプリケーション、映像受信蓄積アプリケーションを開発
+                                            開発の傍ら、サブリーダーとして上記アプリケーションの進捗管理、課題管理を実施。
+                                            管理業務は初めてだったが、開発者と密にコミュニケーションをとることで
+                                            予定通り作業を進めることができた。
+                                        </dd>
+                                        <br />
+                                        <dt class="col-sm-3">期間</dt>
+                                        <dd class="col-sm-9">2017年1月 〜 2017年5月</dd>
+                                    </dl>
+                                    <hr>
+                                    <h4>環境・使用言語</h4>
+                                    <dl class="row">
+                                        <dt class="col-sm-3">言語・FW</dt>
+                                        <dd class="col-sm-9">Java、Apache Struts、html、Javascript</dd>
+                                        <dt class="col-sm-3">DB</dt>
+                                        <dd class="col-sm-9">MySQL</dd>
+                                        <dt class="col-sm-3">サーバOS</dt>
+                                        <dd class="col-sm-9">CentOS</dd>
+                                        <dt class="col-sm-3">ツール</dt>
+                                        <dd class="col-sm-9">
+                                            Redmine、Eclipse、Subversion、Wireshark、
+                                            FFmpeg
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal3 -->
+    <div class="work-modal modal fade" id="workModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2>緊急通報配信<br>システム開発</h2><br />
+                                <div>
+                                    <dl class="row">
+                                        <dt class="col-sm-3">概要</dt>
+                                        <dd class="col-sm-9">
+                                            指定のアドレスから受信したメールを、一斉配信するシステム。
+                                            配信された情報は、画面いっぱいに表示され、
+                                            アラーム音とともに注意喚起を行う。
+                                            本サーバは冗長化構成となっており、定期的なデータ同期を実施する。
+                                        </dd>
+                                        <dt class="col-sm-3">チーム体制</dt>
+                                        <dd class="col-sm-9">
+                                            マネージャ：1名 <br />
+                                            リーダー：1名 <br />
+                                            開発者：3名<br />
+                                        </dd>
+                                        <dt class="col-sm-3">担当業務</dt>
+                                        <dd class="col-sm-9">
+                                            以下の業務にリーダーとして参画。 <br />
+                                            　●顧客打ち合わせ <br />
+                                            　●基本設計、詳細設計 <br />
+                                            　●コーディング <br />
+                                            　●単体テスト<br />
+                                            　●結合テスト<br />
+                                            　●総合テスト<br />
+                                            保守用アプリ、メール転送、配信アプリ、情報表示アプリを開発。
+                                            開発の傍ら、リーダーとして本プロジェクトの開発計画、進捗管理、課題管理および品質分析を実施。
+                                            品質分析では成果物（設計ドキュメント、モジュール）の不具合を集計し、分析を実施。
+                                            不具合傾向を把握し、傾向別に対策を立案、実施。
+                                            品質状況の報告資料では、不具合状況、分析結果、試験観点などを報告。
+                                            各工程において遅延なし、残課題なしで終了。予定通りリリースすることができた。
+                                        </dd>
+                                        <br />
+                                        <dt class="col-sm-3">期間</dt>
+                                        <dd class="col-sm-9">2017年6月 〜 2017年12月</dd>
+                                    </dl>
+                                    <hr>
+                                    <h4>環境・使用言語</h4>
+                                    <dl class="row">
+                                        <dt class="col-sm-3">言語・FW</dt>
+                                        <dd class="col-sm-9">C#、.NET</dd>
+                                        <dt class="col-sm-3">DB</dt>
+                                        <dd class="col-sm-9">なし</dd>
+                                        <dt class="col-sm-3">サーバOS</dt>
+                                        <dd class="col-sm-9">WindowsServer</dd>
+                                        <dt class="col-sm-3">ツール</dt>
+                                        <dd class="col-sm-9">
+                                            Redmine、VisualStudio、Subversion、Wireshark、FTP、IPC
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal4 -->
+    <div class="work-modal modal fade" id="workModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" />
+                </div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2>官公庁向け<br>情報システム基盤設計</h2><br />
+                                <div>
+                                    <dl class="row">
+                                        <dt class="col-sm-3">概要</dt>
+                                        <dd class="col-sm-9">
+                                            官公庁向けの情報システム基盤の設計、開発。
+                                            主にネットワーク系の機能部の設計、開発を実施。
+                                            既製品および開発を組み合わせて各種機能を実現していく。
+                                        </dd>
+                                        <dt class="col-sm-3">チーム体制</dt>
+                                        <dd class="col-sm-9">
+                                            マネージャ：1名 <br />
+                                            リーダー：1名 <br />
+                                            開発者：6名<br />
+                                        </dd>
+                                        <dt class="col-sm-3">担当業務</dt>
+                                        <dd class="col-sm-9">
+                                            以下の業務にリーダーとして参画。 <br />
+                                            　●要件定義 <br />
+                                            　●顧客打ち合わせ <br />
+                                            　●基本設計、詳細設計 <br />
+                                            　●コーディング <br />
+                                            　●単体テスト<br />
+                                            　●結合テスト<br />
+                                            　●総合テスト<br />
+                                            　●サーバ構築作業<br />
+                                            　●官立ち会い試験<br />
+                                            官公庁向けに提案資料を作成し、各種機能の要件定義を実施。
+                                            資料の内容を官に説明し、要件を固めていった。
+                                            様々なプロジェクトが並行して進んでいくため、別チームと課題の共有、ネゴシエーションも実施。
+                                            開発としては、官公庁で利用するデータの管理システムを開発。
+                                            バックエンド側の機能および各種ユーティリティの作成を担当。
+                                            11個のアプリケーションの設計が並行して行われていたため、
+                                            Redmineを積極的に活用し、進捗状況を見える化した。
+                                            2年間にわたる大きなプロジェクトであったが、遅延なし、残課題なしで終了。予定通りリリースすることができた。
+                                        </dd>
+                                        <br />
+                                        <dt class="col-sm-3">期間</dt>
+                                        <dd class="col-sm-9">2018年4月 〜 2020年2月</dd>
+                                    </dl>
+                                    <hr>
+                                    <h4>環境・使用言語</h4>
+                                    <dl class="row">
+                                        <dt class="col-sm-3">言語・FW</dt>
+                                        <dd class="col-sm-9">C#、.NET</dd>
+                                        <dt class="col-sm-3">DB</dt>
+                                        <dd class="col-sm-9">Microsoft SQL Server</dd>
+                                        <dt class="col-sm-3">サーバOS</dt>
+                                        <dd class="col-sm-9">WindowsServer、RHEL</dd>
+                                        <dt class="col-sm-3">ツール</dt>
+                                        <dd class="col-sm-9">
+                                            Redmine、VisualStudio、Git、Wireshark、ActiveDirectory
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed"><a
+            class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a></div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
